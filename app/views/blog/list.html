@@ -1,0 +1,9 @@
+<button ng-click="addPost()" class="btn btn-success">Add Post</button>
+<article ng-repeat="post in posts">
+	
+		<h2>{{post.title}}</h2>
+		<p>{{post.content}}</p>
+		<p><a href="#/blog/{{post._id}}">View More</a></p>
+	<hr>
+</article>
+
